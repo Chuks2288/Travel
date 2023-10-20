@@ -1,9 +1,14 @@
+import { Camp, Features, GetApp, Guide, Hero } from '@/components'
 import Image from 'next/image'
 
 export default function Home() {
   return (
-    <h1 className="font-bold text-2xl text-teal-100">
-      Hello World
-    </h1>
+    <>
+      <Hero />
+      <Camp />
+      <Guide />
+      <Features />
+      <GetApp />
+    </>
   )
 }
